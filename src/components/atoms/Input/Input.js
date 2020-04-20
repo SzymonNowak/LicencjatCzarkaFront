@@ -4,10 +4,10 @@ const Input = styled.input`
   padding: 15px 30px;
   font-size: ${({ theme }) => theme.fontSize.xs};
   font-weight: ${({ theme }) => theme.regular};
-  background-color: ${({ theme }) => theme.grey100};
-  border: none;
+  border: 1px solid ${({ theme }) => theme.orange};
   border-radius: 50px;
   ::placeholder {
+    text-align:center;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: ${({ theme }) => theme.grey300};
