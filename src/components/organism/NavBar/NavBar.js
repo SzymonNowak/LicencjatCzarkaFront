@@ -59,17 +59,17 @@ const NavBar = () => {
   return (
     <Nav>
       <UserBoxWrapper>
-        <StyledLink to={routes.main}> <i class="fas fa-hamburger"></i>  Burgermania </StyledLink>
+        <StyledLink to={routes.main}> <i class="fas fa-hamburger"></i>  Kurier app </StyledLink>
       </UserBoxWrapper>
       <ListOfNavItem>
         <ListItem>
-          <StyledLink to={routes.orders}> Order List</StyledLink>
+          <StyledLink to={routes.addParcel}> Add parcel</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to={routes.contact}> Contact</StyledLink>
+          <StyledLink to={routes.getParcel}> Get parcel from client</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to={routes.anything}> Anything</StyledLink>
+          <StyledLink to={routes.checkStatus}> check status</StyledLink>
         </ListItem>
         <ListItem>
           <StyledLink to={routes.register}>

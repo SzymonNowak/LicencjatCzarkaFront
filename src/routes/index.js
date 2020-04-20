@@ -1,9 +1,9 @@
 export const routes = {
     home: '/',
     main: '/main',
-    orders: '/orders',
-    anything: '/anything',
-    contact: '/contact',
+    addParcel: '/addParcel',
+    getParcel: '/getParcel',
+    checkStatus: '/checkStatus',
     register: '/register',
     login: '/login'
 };
