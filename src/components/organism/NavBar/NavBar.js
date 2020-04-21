@@ -63,10 +63,10 @@ const NavBar = () => {
       </UserBoxWrapper>
       <ListOfNavItem>
         <ListItem>
-          <StyledLink to={routes.addParcel}> Add parcel</StyledLink>
+          <StyledLink to={routes.addParcel}> Add pack</StyledLink>
         </ListItem>
         <ListItem>
-          <StyledLink to={routes.getParcel}> Get parcel from client</StyledLink>
+          <StyledLink to={routes.getParcel}> Get pack from client</StyledLink>
         </ListItem>
         <ListItem>
           <StyledLink to={routes.checkStatus}> check status</StyledLink>

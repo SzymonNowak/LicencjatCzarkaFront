@@ -30,7 +30,7 @@ const AddParcel = () => {
         <ViewWrapper>
             <Form onSubmit={handleSubmit(onSubmit)}>
 
-                <Label><h1>Type Parcel ID:</h1></Label>
+                <Label><h1> Pack ID:</h1></Label>
                 <Input
                     name="parcel"
                     placeholder="123123213213 "
@@ -40,7 +40,7 @@ const AddParcel = () => {
                 {errors.parcel && <ErrorMessage>This field is required</ErrorMessage>}
 
                 <Label><h1></h1></Label>
-                <StyledButton>ADD parcel</StyledButton>
+                <StyledButton>ADD Pack</StyledButton>
             </Form>
         </ViewWrapper>
     )
