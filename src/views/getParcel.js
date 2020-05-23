@@ -29,7 +29,7 @@ const GetParcel = () => {
         <ViewWrapper>
             <Form onSubmit={handleSubmit(onSubmit)}>
 
-                <Label><h1>Pack ID:</h1></Label>
+                <Label><h1>penis:</h1></Label>
                 <Input
                     name="parcel"
                     placeholder="123123213213 "
